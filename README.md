@@ -36,7 +36,7 @@ Akses demo aplikasi di: [http://admindashboardlaravel.wuaze.com](http://admindas
 
 ### Login
 
-![Login](./images/login-screen.png)
+![Login](public/images/login-screen.png)
 
 Gunakan kredensial yang valid untuk login ke dashboard.
 
