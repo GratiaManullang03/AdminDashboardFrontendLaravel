@@ -42,7 +42,7 @@ Gunakan kredensial yang valid untuk login ke dashboard.
 
 ### Dashboard
 
-![Dashboard](./images/dashboard-screen.png)
+![Dashboard](public/images/dashboard-screen.png)
 
 Dashboard menampilkan statistik utama seperti:
 - Total Users
@@ -55,7 +55,7 @@ Dashboard menampilkan statistik utama seperti:
 
 ### Manajemen Pengguna
 
-![Users](./images/users-screen.png)
+![Users](public/images/users-screen.png)
 
 Menu ini memungkinkan Anda:
 - Melihat daftar pengguna
@@ -66,7 +66,7 @@ Menu ini memungkinkan Anda:
 
 ### Manajemen Peran
 
-![Roles](./images/roles-screen.png)
+![Roles](public/images/roles-screen.png)
 
 Menu ini memungkinkan Anda:
 - Melihat daftar peran
@@ -76,7 +76,7 @@ Menu ini memungkinkan Anda:
 
 ### Manajemen Divisi
 
-![Divisions](./images/divisions-screen.png)
+![Divisions](public/images/divisions-screen.png)
 
 Menu ini memungkinkan Anda:
 - Melihat daftar divisi
@@ -86,7 +86,7 @@ Menu ini memungkinkan Anda:
 
 ### Manajemen Posisi
 
-![Positions](./images/positions-screen.png)
+![Positions](public/images/positions-screen.png)
 
 Menu ini memungkinkan Anda:
 - Melihat daftar posisi
@@ -96,7 +96,7 @@ Menu ini memungkinkan Anda:
 
 ### Profil
 
-![Profile](./images/profile-screen.png)
+![Profile](public/images/profile-screen.png)
 
 Halaman profil menampilkan informasi pengguna yang sedang login.
 
