@@ -55,7 +55,7 @@ Dashboard menampilkan statistik utama seperti:
 
 ### Manajemen Pengguna
 
-![Users](./images/ssers-screen.png)
+![Users](./images/users-screen.png)
 
 Menu ini memungkinkan Anda:
 - Melihat daftar pengguna
