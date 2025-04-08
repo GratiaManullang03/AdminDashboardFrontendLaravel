@@ -202,7 +202,7 @@ Kontribusi untuk meningkatkan proyek ini sangat diterima. Silakan fork repositor
 
 ## Kontak
 
-Jika Anda memiliki pertanyaan, silakan buka issue di repositori ini atau hubungi pengembang di [email@example.com](mailto:email@example.com).
+Jika Anda memiliki pertanyaan, silakan buka issue di repositori ini atau hubungi pengembang di [gratiamanullang03@gmail.com](mailto:gratiamanullang03@gmail.com).
 
 ---
 
