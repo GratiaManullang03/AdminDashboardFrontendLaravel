@@ -36,13 +36,13 @@ Akses demo aplikasi di: [http://admindashboardlaravel.wuaze.com](http://admindas
 
 ### Login
 
-![Login](https://drive.google.com/file/d/1cJ_ZvMsdFzcsRWl_xe3vCmy4avqtual0/view?usp=sharing)
+![Login](./images/login-screen.png)
 
 Gunakan kredensial yang valid untuk login ke dashboard.
 
 ### Dashboard
 
-![Dashboard](https://via.placeholder.com/800x400?text=Dashboard)
+![Dashboard](./images/dashboard-screen.png)
 
 Dashboard menampilkan statistik utama seperti:
 - Total Users
@@ -55,7 +55,7 @@ Dashboard menampilkan statistik utama seperti:
 
 ### Manajemen Pengguna
 
-![Users](https://via.placeholder.com/800x400?text=User+Management)
+![Users](./images/ssers-screen.png)
 
 Menu ini memungkinkan Anda:
 - Melihat daftar pengguna
@@ -66,7 +66,7 @@ Menu ini memungkinkan Anda:
 
 ### Manajemen Peran
 
-![Roles](https://via.placeholder.com/800x400?text=Role+Management)
+![Roles](./images/roles-screen.png)
 
 Menu ini memungkinkan Anda:
 - Melihat daftar peran
@@ -76,7 +76,7 @@ Menu ini memungkinkan Anda:
 
 ### Manajemen Divisi
 
-![Divisions](https://via.placeholder.com/800x400?text=Division+Management)
+![Divisions](./images/divisions-screen.png)
 
 Menu ini memungkinkan Anda:
 - Melihat daftar divisi
@@ -86,7 +86,7 @@ Menu ini memungkinkan Anda:
 
 ### Manajemen Posisi
 
-![Positions](https://via.placeholder.com/800x400?text=Position+Management)
+![Positions](./images/positions-screen.png)
 
 Menu ini memungkinkan Anda:
 - Melihat daftar posisi
@@ -96,7 +96,7 @@ Menu ini memungkinkan Anda:
 
 ### Profil
 
-![Profile](https://via.placeholder.com/800x400?text=Profile)
+![Profile](./images/profile-screen.png)
 
 Halaman profil menampilkan informasi pengguna yang sedang login.
 
