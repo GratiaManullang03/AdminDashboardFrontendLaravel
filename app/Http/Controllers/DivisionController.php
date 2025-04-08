@@ -45,9 +45,19 @@ class DivisionController extends Controller
             'name' => 'required',
         ]);
         
+        // Konversi tipe data secara eksplisit (tidak ada field numerik disini)
+        $data = [
+            'code' => $request->code,
+            'name' => $request->name,
+        ];
+        
         try {
             $response = Http::withToken(Session::get('token'))
-                ->post(env('ADMIN_API_URL') . '/api/divisions', $request->all());
+                ->withHeaders([
+                    'Content-Type' => 'application/json',
+                    'Accept' => 'application/json',
+                ])
+                ->post(env('ADMIN_API_URL') . '/api/divisions', $data);
             
             if ($response->successful()) {
                 return redirect()->route('divisions.index')->with('success', 'Division created successfully!');
@@ -83,9 +93,19 @@ class DivisionController extends Controller
             'name' => 'required',
         ]);
         
+        // Konversi tipe data secara eksplisit (tidak ada field numerik disini)
+        $data = [
+            'code' => $request->code,
+            'name' => $request->name,
+        ];
+        
         try {
             $response = Http::withToken(Session::get('token'))
-                ->put(env('ADMIN_API_URL') . '/api/divisions/' . $id, $request->all());
+                ->withHeaders([
+                    'Content-Type' => 'application/json',
+                    'Accept' => 'application/json',
+                ])
+                ->put(env('ADMIN_API_URL') . '/api/divisions/' . $id, $data);
             
             if ($response->successful()) {
                 return redirect()->route('divisions.index')->with('success', 'Division updated successfully!');

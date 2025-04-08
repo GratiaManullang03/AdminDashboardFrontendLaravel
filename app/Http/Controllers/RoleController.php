@@ -45,9 +45,19 @@ class RoleController extends Controller
             'level' => 'required|numeric',
         ]);
         
+        // Konversi tipe data secara eksplisit
+        $data = [
+            'name' => $request->name,
+            'level' => (int) $request->level, // Konversi ke integer
+        ];
+        
         try {
             $response = Http::withToken(Session::get('token'))
-                ->post(env('ADMIN_API_URL') . '/api/roles', $request->all());
+                ->withHeaders([
+                    'Content-Type' => 'application/json',
+                    'Accept' => 'application/json',
+                ])
+                ->post(env('ADMIN_API_URL') . '/api/roles', $data);
             
             if ($response->successful()) {
                 return redirect()->route('roles.index')->with('success', 'Role created successfully!');
@@ -83,9 +93,19 @@ class RoleController extends Controller
             'level' => 'required|numeric',
         ]);
         
+        // Konversi tipe data secara eksplisit
+        $data = [
+            'name' => $request->name,
+            'level' => (int) $request->level, // Konversi ke integer
+        ];
+        
         try {
             $response = Http::withToken(Session::get('token'))
-                ->put(env('ADMIN_API_URL') . '/api/roles/' . $id, $request->all());
+                ->withHeaders([
+                    'Content-Type' => 'application/json',
+                    'Accept' => 'application/json',
+                ])
+                ->put(env('ADMIN_API_URL') . '/api/roles/' . $id, $data);
             
             if ($response->successful()) {
                 return redirect()->route('roles.index')->with('success', 'Role updated successfully!');
