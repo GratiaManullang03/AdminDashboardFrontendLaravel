@@ -1,66 +1,209 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Admin Dashboard Laravel
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Sebuah frontend modern untuk Admin Dashboard yang terintegrasi dengan API Backend Go. Dashboard ini dikembangkan menggunakan Laravel dan dirancang dengan tampilan modern, minimalis, dan responsif.
 
-## About Laravel
+## Demo
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Akses demo aplikasi di: [http://admindashboardlaravel.wuaze.com](http://admindashboardlaravel.wuaze.com)
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Fitur
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+- 🔐 Autentikasi menggunakan JWT
+- 📊 Dashboard dengan statistik
+- 👥 Manajemen pengguna
+- 🏷️ Manajemen peran (roles)
+- 🏢 Manajemen divisi
+- 📋 Manajemen posisi
+- 👤 Halaman profil
+- 🎨 Tema dengan palette warna modern
+- 📱 Desain responsif
+- 🔔 Notifikasi menggunakan SweetAlert
 
-## Learning Laravel
+## Teknologi
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+- Laravel 10
+- Tailwind CSS (via CDN)
+- SweetAlert
+- Font Awesome
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+## Palette Warna
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+- Accent: #BF161C (merah)
+- Gray: #E0FBFC (abu-abu muda)
+- Background: #253237 (biru gelap)
 
-## Laravel Sponsors
+## Penggunaan
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+### Login
 
-### Premium Partners
+![Login](./images/login-screen.png)
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+Gunakan kredensial yang valid untuk login ke dashboard.
 
-## Contributing
+### Dashboard
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+![Dashboard](./images/dashboard-screen.png)
 
-## Code of Conduct
+Dashboard menampilkan statistik utama seperti:
+- Total Users
+- Active Users
+- Total Divisions
+- Total Positions
+- Users Per Division
+- Users Per Position
+- New Users This Month
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+### Manajemen Pengguna
 
-## Security Vulnerabilities
+![Users](./images/ssers-screen.png)
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+Menu ini memungkinkan Anda:
+- Melihat daftar pengguna
+- Menambah pengguna baru
+- Mengedit informasi pengguna
+- Menghapus pengguna
+- Mencari pengguna berdasarkan kata kunci
 
-## License
+### Manajemen Peran
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+![Roles](./images/roles-screen.png)
+
+Menu ini memungkinkan Anda:
+- Melihat daftar peran
+- Menambah peran baru
+- Mengedit peran
+- Menghapus peran
+
+### Manajemen Divisi
+
+![Divisions](./images/divisions-screen.png)
+
+Menu ini memungkinkan Anda:
+- Melihat daftar divisi
+- Menambah divisi baru
+- Mengedit divisi
+- Menghapus divisi
+
+### Manajemen Posisi
+
+![Positions](./images/positions-screen.png)
+
+Menu ini memungkinkan Anda:
+- Melihat daftar posisi
+- Menambah posisi baru
+- Mengedit posisi
+- Menghapus posisi
+
+### Profil
+
+![Profile](./images/profile-screen.png)
+
+Halaman profil menampilkan informasi pengguna yang sedang login.
+
+## Instalasi Lokal
+
+### Persyaratan
+
+- PHP >= 8.0
+- Composer
+- Laravel 10
+
+### Langkah-langkah
+
+1. Clone repositori
+```bash
+git clone https://github.com/yourusername/admin-dashboard-laravel.git
+cd admin-dashboard-laravel
+```
+
+2. Instal dependensi
+```bash
+composer install
+```
+
+3. Salin file .env.example menjadi .env
+```bash
+cp .env.example .env
+```
+
+4. Konfigurasi file .env
+```
+ADMIN_API_URL=https://admindashboardbackend-production-ba79.up.railway.app
+```
+
+5. Generate key aplikasi
+```bash
+php artisan key:generate
+```
+
+6. Jalankan server pengembangan
+```bash
+php artisan serve
+```
+
+7. Akses aplikasi di http://localhost:8000
+
+## Struktur Proyek
+
+```
+admin-dashboard/
+├── app/
+│   ├── Http/
+│   │   ├── Controllers/
+│   │   │   ├── AuthController.php
+│   │   │   ├── DashboardController.php
+│   │   │   ├── UserController.php
+│   │   │   ├── RoleController.php
+│   │   │   ├── DivisionController.php
+│   │   │   ├── PositionController.php
+│   │   │   └── ProfileController.php
+│   │   └── Middleware/
+│   │       └── ApiAuthentication.php
+├── resources/
+│   └── views/
+│       ├── layouts/
+│       │   └── app.blade.php
+│       ├── auth/
+│       │   └── login.blade.php
+│       ├── users/
+│       │   ├── index.blade.php
+│       │   ├── create.blade.php
+│       │   └── edit.blade.php
+│       ├── roles/
+│       │   ├── index.blade.php
+│       │   ├── create.blade.php
+│       │   └── edit.blade.php
+│       ├── divisions/
+│       │   ├── index.blade.php
+│       │   ├── create.blade.php
+│       │   └── edit.blade.php
+│       ├── positions/
+│       │   ├── index.blade.php
+│       │   ├── create.blade.php
+│       │   └── edit.blade.php
+│       ├── dashboard.blade.php
+│       └── profile.blade.php
+└── routes/
+    └── web.php
+```
+
+## API Backend
+
+Dashboard ini terintegrasi dengan API Backend Go yang tersedia di:  
+https://admindashboardbackend-production-ba79.up.railway.app
+
+## Kontribusi
+
+Kontribusi untuk meningkatkan proyek ini sangat diterima. Silakan fork repositori, buat perubahan, dan kirimkan pull request.
+
+## Lisensi
+
+[MIT License](LICENSE)
+
+## Kontak
+
+Jika Anda memiliki pertanyaan, silakan buka issue di repositori ini atau hubungi pengembang di [email@example.com](mailto:email@example.com).
+
+---
+
+&copy; 2025 Admin Dashboard Laravel. Dibuat dengan 💻 dan ❤️
